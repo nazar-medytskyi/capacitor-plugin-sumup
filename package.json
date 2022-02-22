@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-sumup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Capacitor Plugin for SumUp",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

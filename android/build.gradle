@@ -5,12 +5,6 @@ ext {
     androidxEspressoCoreVersion = project.hasProperty('androidxEspressoCoreVersion') ? rootProject.ext.androidxEspressoCoreVersion : '3.3.0'
 }
 
-allprojects {
-    repositories {
-        maven { url 'https://maven.sumup.com/releases' }
-    }
-}
-
 buildscript {
     repositories {
         google()
@@ -51,6 +45,7 @@ repositories {
     google()
     mavenCentral()
     jcenter()
+    maven { url 'https://maven.sumup.com/releases' }
 }
 
 

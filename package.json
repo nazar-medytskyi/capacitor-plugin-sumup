@@ -13,7 +13,12 @@
     "ios/Plugin/",
     "CapacitorPluginSumup.podspec"
   ],
-  "author": "Bart Westenenk",
+  "author": "Nazr Medytskyi",
+  "contributors": [
+    {
+      "name": "Bart Westenenk"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

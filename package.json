@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-sumup",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Capacitor Plugin for SumUp",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "CapacitorPluginSumup.podspec"
   ],
-  "author": "Nazr Medytskyi",
+  "author": "Bart Westenenk",
   "license": "MIT",
   "repository": {
     "type": "git",

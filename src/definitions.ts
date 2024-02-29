@@ -4,22 +4,22 @@ export interface SumUpPlugin {
 }
 
 export interface LoginOptions {
-  affiliateKey: string,
-  accessToken?: string,
+  affiliateKey: string;
+  accessToken?: string;
 }
 
 export interface CheckoutOptions {
-  total: number,
-  currency: string,
-  title?: string,
-  receiptEmail?: string,
-  receiptSMS?: string,
-  additionalInfo?: { [key: string]: string },
-  foreignTransactionId?: string,
-  skipSuccessScreen?: boolean
+  total: number;
+  currency: string;
+  title?: string;
+  receiptEmail?: string;
+  receiptSMS?: string;
+  additionalInfo?: { [key: string]: string };
+  foreignTransactionId?: string;
+  skipSuccessScreen?: boolean;
 }
 
 export interface SumUpResponse {
-  code: number,
-  message: string
+  code: number;
+  message: string;
 }

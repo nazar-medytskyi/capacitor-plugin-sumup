@@ -2,9 +2,7 @@ package com.nazar.capacitor.sumup;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import androidx.activity.result.ActivityResult;
-
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
@@ -16,7 +14,6 @@ import com.sumup.merchant.reader.api.SumUpAPIHelper;
 import com.sumup.merchant.reader.api.SumUpPayment;
 import com.sumup.merchant.reader.api.SumUpState;
 import com.sumup.merchant.reader.identitylib.ui.activities.LoginActivity;
-
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -85,7 +82,7 @@ public class SumUpPlugin extends Plugin {
         if (call.hasOption("additionalInfo")) {
             JSObject jsAdditionalInfo = call.getObject("additionalInfo");
             HashMap<String, String> additionalInfo = new HashMap<>();
-            for (Iterator<String> it = jsAdditionalInfo.keys(); it.hasNext(); ) {
+            for (Iterator<String> it = jsAdditionalInfo.keys(); it.hasNext();) {
                 String key = it.next();
                 additionalInfo.put(key, jsAdditionalInfo.getString(key));
             }
